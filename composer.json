@@ -1,5 +1,5 @@
 {
-  "name": "waywake/wdt-sdk-php",
+  "name": "waywake/wdt-sdk",
   "description": "旺店通旗舰版 OpenAPI.",
   "type": "library",
   "license": "proprietary",

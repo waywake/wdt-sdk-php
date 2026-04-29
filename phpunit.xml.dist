@@ -5,7 +5,7 @@
     colors="true"
 >
     <testsuites>
-        <testsuite name="wdt-sdk-php">
+        <testsuite name="wdt-sdk">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

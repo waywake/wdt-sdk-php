@@ -7,7 +7,7 @@
 发布到私有 Composer 仓库或 Packagist 后：
 
 ```bash
-composer require waywake/wdt-sdk-php
+composer require waywake/wdt-sdk
 ```
 
 如果当前只是本地仓库，也可以在业务项目里先用 `path` 或 `vcs` 仓库方式接入。
