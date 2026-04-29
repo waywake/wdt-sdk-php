@@ -1,0 +1,17 @@
+name: Packagist
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  update:
+    uses: waywake/actions/.github/workflows/packagist-update.yml@v2
+    with:
+      php-version: "8.5"
+      run-tests: true
+    secrets:
+      PACKAGIST_USERNAME: ${{ secrets.PACKAGIST_USERNAME }}
+      PACKAGIST_API_TOKEN: ${{ secrets.PACKAGIST_API_TOKEN }}
