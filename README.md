@@ -37,9 +37,9 @@ $result = $client->pageCall('goods.Goods.queryWithSpec', $pager, [
 ]);
 ```
 
-## Laravel 12
+## Laravel 12 / 13
 
-Laravel 12 安装后会通过 Composer 自动发现服务提供者和 Facade。
+Laravel 12 或 13 安装后会通过 Composer 自动发现服务提供者和 Facade。
 
 发布配置：
 
